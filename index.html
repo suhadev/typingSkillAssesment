@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>Test your Typing Skill</h3>
+            </div>
+
+        </div>
+        <div id="comments">
+
+        </div>
+        <div class="game">
+            <div class="gameHeaders text-center">
+                <div class="row text-center">
+                    <div class="col-lg-12 text-center" id="gameHeaders">
+                        <button id="startBtn" class="btn btn-dark btn-lg" onClick="startGame()">Start Game</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gameArea">
+                <div class="row">
+                    <div class="col-lg-12 text-right">
+                        <div id="scoreArea">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:10%;height: 70%;width: 100%;">
+                    <div class="col-lg-6 text-center">
+                        <div id="group1">
+                            <label>Key Displayed</label>
+                            <div id="textArea">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div id="group2">
+                            <label>Key Pressed</label>
+                            <div id="keyPressed">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <button id="endBtn" class="btn btn-danger btn-sm" onClick="endGame()">End Game</button>
+                        <button id="startBtn" class="btn btn-dark btn-lg" onClick="startGame()">Start Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+</body>
+
+</html>
